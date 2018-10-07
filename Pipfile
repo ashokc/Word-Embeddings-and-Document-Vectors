@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+ipykernel = "*"
+jupyter = "*"
+matplotlib = "*"
+elasticsearch = "*"
+scikit-learn = "*"
+pandas = "*"
+gensim = "*"
+glove-python = "*"
+sympy = "*"
+nltk = "*"
+cython = "*"
+six = "*"
+tabulate = "*"
+jsonpickle = "*"
+pyyaml = "*"
+singleton-decorator = "*"
+image = "*"
+
+[requires]
+python_version = "3.6"
