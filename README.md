@@ -15,9 +15,11 @@ The code employs,
 
 ## Usage
 
-1. Generate tokens for the 20-news corpus & the movie review data set and save them to Elasticsearch. The dataset for 20-news is downloaded as part of the script. But you need to download the [movie review dataset](http://ai.stanford.edu/~amaas/data/sentiment/) separately. The shell & python code in *custom-vectors/movie-reviews* and *custom-vectors/twenty-news* is self-explanatory
+1. Generate tokens for the 20-news corpus & the movie review data set and save them to Elasticsearch.
+	* The dataset for 20-news is downloaded as part of the script. But you need to download the [movie review dataset](http://ai.stanford.edu/~amaas/data/sentiment/) separately.
+	* The shell script & python code in the folders *text-data/twenty-news* & *text-data/acl-imdb*
 
-2. Generate custom word vectors for the two text corpus in 1 above and save them to Elasticsearch. *custom-vectors/movie-reviews/vectors* & *custom-vectors/twenty-news/vectors* directories have the scripts
+2. Generate custom word vectors for the two text corpus in 1 above and save them to Elasticsearch. *text-data/twenty-news/vectors* & *text-data/acl-imdb/vectors* directories have the scripts
 
 3. Process pre-trained vectors and save them to Elasticsearch. Look into *pre-trained-vectors/* for the code. You need to download the actual published vectors from their sources. We have used [Word2Vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing), [Glove](http://nlp.stanford.edu/data/wordvecs/glove.6B.zip) and [FastText](https://s3-us-west-1.amazonaws.com/fasttext-vectors/crawl-300d-2M.vec.zip) in these articles.
 
