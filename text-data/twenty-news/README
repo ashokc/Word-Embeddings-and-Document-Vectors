@@ -1,6 +1,6 @@
 Set up the Index:
 
-	./indexSetup.sh acl-imdb
+	./indexSetup.sh twenty-news
 
 Index the data:
 
@@ -9,6 +9,6 @@ Index the data:
 Create Custom Vectors:
 
 	cd vectors/
-	./indexSetup.sh imdb-vectors
+	./indexSetup.sh twenty-vectors
 	pipenv run python ./trainAndIndex.py
 
