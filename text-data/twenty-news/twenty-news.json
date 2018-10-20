@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "mapping.total_fields.limit" : 100,
+      "mapping.nested_fields.limit" : 100,
+			"refresh_interval" : "10s"
+    },
+    "analysis": {
+      "filter": {
+        "auto_complete_filter": {
+          "type": "edge_ngram",
+          "min_gram": 2,
+          "max_gram": 40
+        }
+      },
+      "analyzer": {
+        "auto_complete": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "lowercase",
+            "auto_complete_filter"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "article": {
+    }
+  }
+}
+
