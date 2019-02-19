@@ -1,6 +1,6 @@
 # Word Embeddings and Document Vectors
 
-This is the source code to along with the series of blog articles
+This is the source code to go along with the series of blog articles
 
 * [Word Embeddings and Document Vectors: Part 1. Similarity](http://xplordat.com/2018/09/27/word-embeddings-and-document-vectors-part-1-similarity/)
 * [Word Embeddings and Document Vectors: Part 2. Classification](http://xplordat.com/2018/10/09/word-embeddings-and-document-vectors-part-2-classification/)
