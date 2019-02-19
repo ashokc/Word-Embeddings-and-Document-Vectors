@@ -23,7 +23,12 @@ The code employs,
 
 3. Process pre-trained vectors and save them to Elasticsearch. Look into *pre-trained-vectors/* for the code. You need to download the actual published vectors from their sources. We have used [Word2Vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing), [Glove](http://nlp.stanford.edu/data/wordvecs/glove.6B.zip) and [FastText](https://s3-us-west-1.amazonaws.com/fasttext-vectors/crawl-300d-2M.vec.zip) in these articles.
 
-4. The script *run.sh* can be configured to run whichever combination of the pipeline steps,. The logs contain the F-scores and timing results.
+4. The script *run.sh* can be configured to run whichever combination of the pipeline steps.
+
+5. The logs contain the F-scores and timing results. Create a "logs" directory before running the *run.sh* script
+
+	mkdir logs
+
 
 
 
